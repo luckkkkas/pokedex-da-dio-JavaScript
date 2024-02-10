@@ -1,0 +1,51 @@
+* {
+    font-family: 'Roboto', sans-serif;
+    box-sizing: border-box;
+}
+
+#detail_btn{
+    border-radius: 10px;
+    border: none;
+    font-size: .6rem;
+    background-color: black;
+    color: gold;
+    cursor: pointer;
+    
+}
+
+body {
+    background-color: #4f3ac5;
+}
+
+.content {
+    width: 100vw;
+    height: 100vh;
+    padding: 8rem;
+    background-color: #45178f;
+    color: antiquewhite;
+}
+
+ol#detalhes{
+    background-color: Black;
+    border-radius: 20px;
+    margin: 0px;
+    padding: 7px 0 0 0;
+    color: gold;
+    text-align: left;
+    text-transform: uppercase;
+    list-style: none;
+    position: fixed;
+    display: flex;
+    right: 100px;
+    top: 20px;
+
+}
+
+@media screen and (min-width: 992px) {
+    .content {
+        max-width: 992px;
+        height: auto;
+        margin: 1rem auto;
+        border-radius: 1rem;
+    }
+}
